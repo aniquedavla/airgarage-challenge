@@ -1,4 +1,6 @@
-Setup for Lowest rated parking lots
+Setup for Lowest rated parking lots.
+
+The NodeJS backend was needed as the Yelp API does not support client side CORS directly. I wanted to honor Yelp's policy and not use hacks to get around that from the client directly.
 
 Prereq
 1. NodeJS (https://nodejs.org)
