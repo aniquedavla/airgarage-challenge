@@ -2,7 +2,7 @@ Setup for Lowest rated parking lots
 
 Prereq
 1. NodeJS (https://nodejs.org)
-2. .ngrok (https://ngrok.com)
+2. ngrok (https://ngrok.com)
 3. Clone master branch of repo https://github.com/aniquedavla/airgarage-challenge.git  
 
 Run backend 
