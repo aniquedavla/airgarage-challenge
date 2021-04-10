@@ -1,5 +1,5 @@
-#Lowest Rated parking lots in a given city.
-Uses Yelp API. 
+<b>Lowest Rated parking lots in a given city.</b>
+<br>Uses Yelp API.</br>
 
 Setup for Lowest rated parking lots.
 
