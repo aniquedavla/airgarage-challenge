@@ -1,7 +1,5 @@
-<b>Lowest Rated parking lots in a given city.</b>
+<b>Lowest rated parking lots in a given city.</b>
 <br>Uses Yelp API.</br>
-
-Setup for Lowest rated parking lots.
 
 Note: The NodeJS backend was needed as the Yelp API does not support client side CORS directly. I wanted to honor Yelp's policy and not use hacks to get around that from the client directly. As mentioned in my email to engineering@airgara.ge and the video, I made an assumption that lowest rated parking lot means parking lots lower than the rating 3.
 
