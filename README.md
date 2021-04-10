@@ -1,3 +1,6 @@
+#Lowest Rated parking lots in a given city.
+Uses Yelp API. 
+
 Setup for Lowest rated parking lots.
 
 Note: The NodeJS backend was needed as the Yelp API does not support client side CORS directly. I wanted to honor Yelp's policy and not use hacks to get around that from the client directly. As mentioned in my email to engineering@airgara.ge and the video, I made an assumption that lowest rated parking lot means parking lots lower than the rating 3.
@@ -23,3 +26,5 @@ Run Frontend
 5. Save 
 6. Go to localhost or the public tunnel url and test app. 
 
+Preview
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/14143239/114281402-0b436180-99f3-11eb-813c-a03f55e71ffe.png">
