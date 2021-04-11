@@ -5,7 +5,7 @@ const axios = require("axios");
 const app = express();
 app.use(cors());
 app.use(express.json());
-const port = 3000; 
+const port = 3001; 
 const API_KEY = "TjIqjD8w7OOa5L6tReeHIROTTq1urLeKT4AcopeD1WWWUj7BzGsQavEUkbp-aSk0ei-RcSHmrcwM8X8KYlSd8YioTr_kKqArl6vTU0jMCPOoEXNzb55xfG7v6o1rYHYx"; 
 
 app.get('/parking-lots', (req, res) => {
