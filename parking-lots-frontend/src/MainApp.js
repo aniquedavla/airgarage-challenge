@@ -23,20 +23,20 @@ export default function MainApp(){
                 location: location
             }
         }
-        axios.get("http://e19b4ff53212.ngrok.io/parking-lots", config).then((response)=>{
+        axios.get("http://482c8be212b6.ngrok.io/parking-lots", config).then((response)=>{
             console.log("yelp backend res", response.data.data);
             setLowestLots(response.data.data);
         })
     }
 
     return(
-        <div>
-            <h1>Lowest rated parking lots!</h1>
-            <h4>Ratings lower than 3 stars.</h4>
+        <div class="grid gap-4 bg-white-700">
+            <h1 class="font-sans text-2xl mt-2 font-bold">Lowest rated parking lots!</h1>
+            <div>Ratings lower than 3 stars.</div>
             <div>
                 <form onSubmit={onSubmit}>
                     <input type="text" required placeholder="Enter a city" onChange={onChangeLocation}></input>
-                    <input type="submit"></input>
+                    <input type="submit" class="bg-gray-200 p-2 ml-2"></input>
                 </form>
             </div>
             <ParkingLots lowestLots={lowestLots}></ParkingLots>
